@@ -1,0 +1,11 @@
+# vi:ts=2:sw=2:expandtab
+
+[user]
+  email = nico2che@gmail.com
+  name = Nicolas de Chevigné
+
+[rebase]
+	autoStash = true
+
+[github]
+	user = nico2che
