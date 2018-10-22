@@ -108,3 +108,4 @@ antigen apply
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 source ~/pointfichiers/aliases
+source ~/pointfichiers/cacd2
