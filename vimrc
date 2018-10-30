@@ -17,8 +17,6 @@ set showmatch
 set ignorecase
 set smartcase
 
-set inccommand=nosplit
-
 set showcmd
 set nobackup
 
