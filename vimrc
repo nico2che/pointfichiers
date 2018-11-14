@@ -1,7 +1,9 @@
+set title
+
+" Active le comportement habituel de la touche retour arrière
 set backspace=indent,eol,start
 
 set number              
-set cursorline
 
 set autoindent
 set smartindent
@@ -24,3 +26,7 @@ set autoread
 set scrolloff=10
 
 syntax on
+
+filetype on
+filetype plugin on
+filetype indent on
