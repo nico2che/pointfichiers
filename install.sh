@@ -2,7 +2,7 @@
 
 ABSDIR=$(pwd -P)
 
-rm ~/.zshrc ~/.vimrc ~/.gitconfig
+rm -f ~/.zshrc ~/.vimrc ~/.gitconfig
 ln -s $ABSDIR/zshrc ~/.zshrc
 ln -s $ABSDIR/vimrc ~/.vimrc
 ln -s $ABSDIR/gitconfig ~/.gitconfig
