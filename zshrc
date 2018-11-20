@@ -65,6 +65,7 @@ DEFAULT_USER="nicolas"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  kubectl
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -98,13 +99,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source $HOME/.antigen/antigen.zsh
+# source $HOME/.antigen/antigen.zsh
 
-antigen bundle zsh-users/zsh-autosuggestions
-antigen theme agnoster
+# antigen bundle zsh-users/zsh-autosuggestions
+# antigen theme agnoster
 
-antigen apply
+# antigen apply
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 source ~/pointfichiers/aliases
+source ~/pointfichiers/cacd2
