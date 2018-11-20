@@ -4,6 +4,7 @@ set title
 set backspace=indent,eol,start
 
 set number              
+set relativenumber
 
 set autoindent
 set smartindent
