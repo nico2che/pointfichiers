@@ -110,3 +110,5 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 source ~/pointfichiers/aliases
 source ~/pointfichiers/cacd2
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
