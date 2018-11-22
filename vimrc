@@ -28,6 +28,11 @@ set nobackup
 set autoread
 set scrolloff=10
 
+let mapleader = "\<Space>"
+
+" fzf shortcut
+nnoremap <silent> <leader><space> :Files<CR>
+
 syntax on
 
 filetype on
