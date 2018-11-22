@@ -1,3 +1,5 @@
+source ~/pointfichiers/vim-plugins
+
 set title
 
 " Active le comportement habituel de la touche retour arrière
