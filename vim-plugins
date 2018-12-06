@@ -9,4 +9,12 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'francoiscabrol/ranger.vim'
 
+Plug 'nanotech/jellybeans.vim'
+
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'Quramy/tsuquyomi'
+Plug 'digitaltoad/vim-pug'
+Plug 'moll/vim-node'
+
 call plug#end()
