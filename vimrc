@@ -34,6 +34,7 @@ let mapleader = "\<Space>"
 nnoremap <silent> <leader><space> :Files<CR>
 
 syntax on
+colorscheme jellybeans
 
 filetype on
 filetype plugin on
