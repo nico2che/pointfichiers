@@ -111,4 +111,14 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 source ~/pointfichiers/aliases
 source ~/pointfichiers/cacd2
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/nicolas/dev/weglot-reverse-proxy/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/nicolas/dev/weglot-reverse-proxy/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/nicolas/dev/weglot-reverse-proxy/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/nicolas/dev/weglot-reverse-proxy/node_modules/tabtab/.completions/sls.zsh
+# tabtab source for slss package
+# uninstall by removing these lines or running `tabtab uninstall slss`
+[[ -f /Users/nicolas/dev/weglot-reverse-proxy/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/nicolas/dev/weglot-reverse-proxy/node_modules/tabtab/.completions/slss.zsh
+# added by travis gem
+[ -f /Users/nicolas/.travis/travis.sh ] && source /Users/nicolas/.travis/travis.sh

@@ -5,3 +5,11 @@ tmpfile=$( mktemp -t transferXXX ); if tty -s; then basefile=$(basename "$1" | s
 gh() {
   cat ~/.oh-my-zsh/plugins/git/git.plugin.zsh | grep $1;
 }
+
+pma() {
+  docker stop pma && docker rm pma > /dev/null
+  docker run --name pma \
+    -e PMA_ARBITRARY=1 \
+    -p 5678:80 phpmyadmin/phpmyadmin > /dev/null
+  echo "> phpMyAdmin: http://localhost:5678/ 🤩"
+}
