@@ -30,3 +30,4 @@ gcld() {
   fi
 }
 
+alias l='exa -al'
