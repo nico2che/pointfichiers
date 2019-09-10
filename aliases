@@ -13,3 +13,20 @@ pma() {
     -p 5678:80 phpmyadmin/phpmyadmin > /dev/null
   echo "> phpMyAdmin: http://localhost:5678/ 🤩"
 }
+
+gcld() {
+  local tmp=$(mktemp)
+  local repo_name
+  git clone "$@" &> $tmp
+  repo_name=$(awk -F\' '{print $2}' $tmp)
+  rm $tmp
+  printf "Changing to directory %s\n" "$repo_name"
+  cd "$repo_name"
+  if test -f "./package.json"; then
+    echo "..."
+    echo "Found package.json... installing dependencies"
+    echo "..."
+    npm install
+  fi
+}
+
