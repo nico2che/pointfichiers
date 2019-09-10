@@ -31,3 +31,4 @@ gcld() {
 }
 
 alias l='exa -al'
+alias cat='bat'
